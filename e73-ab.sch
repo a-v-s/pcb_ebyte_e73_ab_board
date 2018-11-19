@@ -87,108 +87,104 @@ Text GLabel 4550 1500 2    50   Input ~ 0
 SWDCLK
 Text GLabel 4550 1400 2    50   Input ~ 0
 SWDIO
-Text GLabel 7050 2450 2    50   Input ~ 0
+Text GLabel 6400 2450 2    50   Input ~ 0
 24
-Text GLabel 7050 2350 2    50   Input ~ 0
+Text GLabel 6400 2350 2    50   Input ~ 0
 23
-Text GLabel 7050 2250 2    50   Input ~ 0
+Text GLabel 6400 2250 2    50   Input ~ 0
 22
-Text GLabel 7050 2150 2    50   Input ~ 0
+Text GLabel 6400 2150 2    50   Input ~ 0
 21
-Text GLabel 7050 2050 2    50   Input ~ 0
+Text GLabel 6400 2050 2    50   Input ~ 0
 20
-Text GLabel 7050 1950 2    50   Input ~ 0
+Text GLabel 6400 1950 2    50   Input ~ 0
 19
-Text GLabel 7050 1850 2    50   Input ~ 0
+Text GLabel 6400 1850 2    50   Input ~ 0
 18
-Text GLabel 7050 1750 2    50   Input ~ 0
+Text GLabel 6400 1750 2    50   Input ~ 0
 17
-Text GLabel 7050 1650 2    50   Input ~ 0
+Text GLabel 6400 1650 2    50   Input ~ 0
 16
-Text GLabel 7050 1550 2    50   Input ~ 0
+Text GLabel 6400 1550 2    50   Input ~ 0
 15
-Text GLabel 7050 1450 2    50   Input ~ 0
+Text GLabel 6400 1450 2    50   Input ~ 0
 14
-Text GLabel 7050 1350 2    50   Input ~ 0
+Text GLabel 6400 1350 2    50   Input ~ 0
 13
-Text GLabel 7050 1250 2    50   Input ~ 0
+Text GLabel 6400 1250 2    50   Input ~ 0
 12
-Text GLabel 7050 1150 2    50   Input ~ 0
+Text GLabel 6400 1150 2    50   Input ~ 0
 11
-Text GLabel 7050 1050 2    50   Input ~ 0
+Text GLabel 6400 1050 2    50   Input ~ 0
 10
-Text GLabel 6150 1050 2    50   Input ~ 0
+Text GLabel 7050 1050 2    50   Input ~ 0
 9
-Text GLabel 6150 1150 2    50   Input ~ 0
+Text GLabel 7050 1150 2    50   Input ~ 0
 8
-Text GLabel 6150 1250 2    50   Input ~ 0
+Text GLabel 7050 1250 2    50   Input ~ 0
 7
-Text GLabel 6150 1350 2    50   Input ~ 0
+Text GLabel 7050 1350 2    50   Input ~ 0
 6
-Text GLabel 6150 1450 2    50   Input ~ 0
+Text GLabel 7050 1450 2    50   Input ~ 0
 5
-Text GLabel 6150 1550 2    50   Input ~ 0
+Text GLabel 7050 1550 2    50   Input ~ 0
 4
-Text GLabel 6150 1650 2    50   Input ~ 0
+Text GLabel 7050 1650 2    50   Input ~ 0
 3
-Text GLabel 6150 1750 2    50   Input ~ 0
+Text GLabel 7050 1750 2    50   Input ~ 0
 2
 Text GLabel 3950 850  2    50   Input ~ 0
-VDD
-Text GLabel 6150 2650 2    50   Input ~ 0
-VDD
-Text GLabel 6150 2750 2    50   Input ~ 0
 VDD
 Text GLabel 7050 2650 2    50   Input ~ 0
 VDD
 Text GLabel 7050 2750 2    50   Input ~ 0
 VDD
+Text GLabel 6400 2650 2    50   Input ~ 0
+VDD
+Text GLabel 6400 2750 2    50   Input ~ 0
+VDD
+Text GLabel 6400 2850 2    50   Input ~ 0
+GND
+Text GLabel 6400 2950 2    50   Input ~ 0
+GND
 Text GLabel 7050 2850 2    50   Input ~ 0
 GND
 Text GLabel 7050 2950 2    50   Input ~ 0
 GND
-Text GLabel 6150 2850 2    50   Input ~ 0
-GND
-Text GLabel 6150 2950 2    50   Input ~ 0
-GND
-Text GLabel 6150 1850 2    50   Input ~ 0
+Text GLabel 7050 1850 2    50   Input ~ 0
 31
-Text GLabel 6150 1950 2    50   Input ~ 0
+Text GLabel 7050 1950 2    50   Input ~ 0
 30
-Text GLabel 6150 2050 2    50   Input ~ 0
+Text GLabel 7050 2050 2    50   Input ~ 0
 29
-Text GLabel 6150 2150 2    50   Input ~ 0
+Text GLabel 7050 2150 2    50   Input ~ 0
 28
-Text GLabel 6150 2250 2    50   Input ~ 0
+Text GLabel 7050 2250 2    50   Input ~ 0
 27
-Text GLabel 6150 2350 2    50   Input ~ 0
+Text GLabel 7050 2350 2    50   Input ~ 0
 26
 $Comp
 L Connector:Conn_01x20_Male J1
 U 1 1 5BE5A72F
-P 5950 1950
-F 0 "J1" H 6056 3028 50  0000 C CNN
-F 1 "Conn_01x20_Male" H 6056 2937 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 5950 1950 50  0001 C CNN
-F 3 "~" H 5950 1950 50  0001 C CNN
-	1    5950 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x20_Male J2
-U 1 1 5BE5A787
 P 6850 1950
-F 0 "J2" H 6956 3028 50  0000 C CNN
+F 0 "J1" H 6956 3028 50  0000 C CNN
 F 1 "Conn_01x20_Male" H 6956 2937 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 6850 1950 50  0001 C CNN
 F 3 "~" H 6850 1950 50  0001 C CNN
 	1    6850 1950
 	1    0    0    -1  
 $EndComp
-Text GLabel 7050 2550 2    50   Input ~ 0
-5V
-Text GLabel 6150 2550 2    50   Input ~ 0
-5V
+$Comp
+L Connector:Conn_01x20_Male J2
+U 1 1 5BE5A787
+P 6200 1950
+F 0 "J2" H 6306 3028 50  0000 C CNN
+F 1 "Conn_01x20_Male" H 6306 2937 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 6200 1950 50  0001 C CNN
+F 3 "~" H 6200 1950 50  0001 C CNN
+	1    6200 1950
+	1    0    0    -1  
+$EndComp
 $Comp
 L Connector:Conn_01x04_Male J3
 U 1 1 5BE5AC20
@@ -311,7 +307,7 @@ F 3 "" H 2650 900 50  0001 C CNN
 	1    2800 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 2450 2    50   Input ~ 0
+Text GLabel 7050 2450 2    50   Input ~ 0
 25
 $Comp
 L power:GND #PWR0105
@@ -547,4 +543,34 @@ Wire Wire Line
 Connection ~ 8100 2750
 Wire Wire Line
 	8100 2750 8150 2750
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5BF31382
+P 6750 3550
+F 0 "J8" H 6670 3225 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 6670 3316 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6750 3550 50  0001 C CNN
+F 3 "~" H 6750 3550 50  0001 C CNN
+	1    6750 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5BF31425
+P 5900 3450
+F 0 "J7" H 5980 3442 50  0000 L CNN
+F 1 "Conn_02x02_Odd_Even" H 5980 3351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5900 3450 50  0001 C CNN
+F 3 "~" H 5900 3450 50  0001 C CNN
+	1    5900 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 3450 0    50   Input ~ 0
+5V
+Text GLabel 5700 3550 0    50   Input ~ 0
+5V
+Text GLabel 6950 3450 2    50   Input ~ 0
+5V
+Text GLabel 6950 3550 2    50   Input ~ 0
+5V
 $EndSCHEMATC

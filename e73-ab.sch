@@ -263,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 1450 10000 1550
 $Comp
-L Device:CP_Small C2
+L Device:C_Small C2
 U 1 1 5BE5BA2C
 P 10600 1350
 F 0 "C2" H 10688 1396 50  0000 L CNN
@@ -274,7 +274,7 @@ F 3 "~" H 10600 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C1
+L Device:C_Small C1
 U 1 1 5BE5BA7E
 P 9450 1350
 F 0 "C1" H 9538 1396 50  0000 L CNN
@@ -399,17 +399,6 @@ Wire Wire Line
 Connection ~ 10600 1150
 Wire Wire Line
 	10300 1150 10600 1150
-$Comp
-L Regulator_Linear:AP2204R-3.3 U2
-U 1 1 5BE5DFF3
-P 10000 1150
-F 0 "U2" H 10000 1392 50  0000 C CNN
-F 1 "AP2204R-3.3" H 10000 1301 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 10000 1375 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 10000 1150 50  0001 C CNN
-	1    10000 1150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5BE6FC55
@@ -573,4 +562,15 @@ Text GLabel 6950 3450 2    50   Input ~ 0
 5V
 Text GLabel 6950 3550 2    50   Input ~ 0
 5V
+$Comp
+L Regulator_Linear:APE8865N-33-HF-3 U2
+U 1 1 5BF495BA
+P 10000 1150
+F 0 "U2" H 10000 1392 50  0000 C CNN
+F 1 "APE8865N-33-HF-3" H 10000 1301 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10000 1375 50  0001 C CIN
+F 3 "http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf" H 10000 1150 50  0001 C CNN
+	1    10000 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

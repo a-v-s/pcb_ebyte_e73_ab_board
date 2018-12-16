@@ -297,7 +297,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 1550 9450 1450
 $Comp
-L e73-ab-rescue:E73-AB-Module_ebyte U1
+L Module_ebyte:E73-AB U1
 U 1 1 5BE57F23
 P 2800 1050
 F 0 "U1" H 4400 -950 50  0000 C CNN
@@ -572,7 +572,7 @@ F 3 "~" H 8850 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9000 4350 2    50   Input ~ 0
-5V
+VBUS
 $Comp
 L power:GND #PWR0107
 U 1 1 5C13F847
@@ -608,4 +608,19 @@ F 3 "~" H 7900 3750 50  0001 C CNN
 $EndComp
 Text GLabel 8250 1400 0    50   Input ~ 0
 5V
+Text GLabel 5700 4250 0    50   Input ~ 0
+VBUS
+Text GLabel 6000 4250 2    50   Input ~ 0
+5V
+$Comp
+L Device:D_Schottky D?
+U 1 1 5C14D630
+P 5850 4250
+F 0 "D?" H 5850 4034 50  0000 C CNN
+F 1 "D_Schottky" H 5850 4125 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5850 4250 50  0001 C CNN
+F 3 "~" H 5850 4250 50  0001 C CNN
+	1    5850 4250
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

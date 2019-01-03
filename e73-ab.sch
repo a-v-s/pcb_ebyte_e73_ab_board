@@ -386,7 +386,7 @@ U 1 1 5BE6FC55
 P 8350 2750
 F 0 "SW1" H 8350 3035 50  0000 C CNN
 F 1 "SW_Push" H 8350 2944 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 8350 2950 50  0001 C CNN
+F 2 "lib:TS-1187" H 8350 2950 50  0001 C CNN
 F 3 "" H 8350 2950 50  0001 C CNN
 	1    8350 2750
 	1    0    0    -1  
@@ -613,14 +613,58 @@ VBUS
 Text GLabel 6000 4250 2    50   Input ~ 0
 5V
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D2
 U 1 1 5C14D630
 P 5850 4250
-F 0 "D?" H 5850 4034 50  0000 C CNN
+F 0 "D2" H 5850 4034 50  0000 C CNN
 F 1 "D_Schottky" H 5850 4125 50  0000 C CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 5850 4250 50  0001 C CNN
 F 3 "~" H 5850 4250 50  0001 C CNN
 	1    5850 4250
 	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C27FBE3
+P 1300 4400
+F 0 "H1" H 1400 4446 50  0000 L CNN
+F 1 "MountingHole" H 1400 4355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 1300 4400 50  0001 C CNN
+F 3 "~" H 1300 4400 50  0001 C CNN
+	1    1300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C27FD08
+P 1300 4600
+F 0 "H2" H 1400 4646 50  0000 L CNN
+F 1 "MountingHole" H 1400 4555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 1300 4600 50  0001 C CNN
+F 3 "~" H 1300 4600 50  0001 C CNN
+	1    1300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5C27FD46
+P 1300 4800
+F 0 "H3" H 1400 4846 50  0000 L CNN
+F 1 "MountingHole" H 1400 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 1300 4800 50  0001 C CNN
+F 3 "~" H 1300 4800 50  0001 C CNN
+	1    1300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5C27FD86
+P 1300 5000
+F 0 "H4" H 1400 5046 50  0000 L CNN
+F 1 "MountingHole" H 1400 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 1300 5000 50  0001 C CNN
+F 3 "~" H 1300 5000 50  0001 C CNN
+	1    1300 5000
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
